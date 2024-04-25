@@ -1,0 +1,69 @@
+.login-image {
+    width: 47%;
+    float: left;
+  }
+
+.auth-container {
+    display: flex;
+  }
+
+  h1 {
+    width: 300px;
+    position: absolute; /* Set position to absolute */
+    top: 15%; /* Align text to the top */
+    left: 50%; /* Move text to the center horizontally */
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+}
+  .auth-form {
+    position: absolute;
+    width: 400px;
+    top: 26%;
+    left: 50%; 
+    margin-left: 100px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add 15px distance between each button */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;  
+    font-weight: 500;
+    color:#683031;
+}
+button {
+    width: 100%;
+    height: 70px;
+    padding: 10px; /* Increase padding for inputs and button */
+    border-radius: 15px; /* Increase border radius for inputs and button */
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px; 
+}
+
+button {
+    background-color: hsl(210, 12%, 77%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition for button hover effect */
+}
+
+button:hover {
+    background-color: #afb1b1;
+}   
+
+button span{
+    color: black
+}
+
+

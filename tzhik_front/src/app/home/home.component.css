@@ -1,0 +1,98 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    padding: 10px;
+    display:flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+  }
+  .top-bar::after {
+    content: '';
+    position: absolute;
+    top: 58px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black; /* Change line color as needed */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 170px;
+    height: 18px;
+    padding: 8px 30px 8px 10px;
+    border-radius: 15px;
+    border: 1px solid #eae7e7;
+    background-color: #eae7e7;
+    background-image: url('https://icons.veryicon.com/png/o/miscellaneous/linear-icon-45/magnifying-glass-18.png');
+    background-position: 5px center; /* Adjust the position of the search icon */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    text-indent: 20px;
+  }
+
+  .like{
+    right: 10px;
+  }
+
+  .image{
+    margin-left:auto;
+    width: 20px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  .recipe-section {
+    flex: 0 0 40%;
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .recipe-section h2 {
+    font-size: 24px;
+  }
+  
+  .recipe-section p {
+    font-size: 16px;
+  }
+  
+  .sidebar {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
